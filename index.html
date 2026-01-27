@@ -1,13 +1,21 @@
 <html>
 <head> 
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PJ5DNFCB');</script>
+<!-- End Google Tag Manager -->
+
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HF6MN76J42"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CEDVBZNHX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-HF6MN76J42');
+  gtag('config', 'G-2CEDVBZNHX');
 </script>
 <!-- the head tag is for non-visible information -->
   <title>Megan Github</title>
@@ -19,32 +27,42 @@
   <meta property="og:description"   content="This is an assignment I did in class for CS40/>
   <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
   <style>
-   ul {
+   ul.menu {
     list-style-type: none;
    }
-   li#selected {
+   li.menu {
         background-color: lightblue;
         float: left;
         margin: 0;
         padding: 10;
     }
+    li#selected {
+        background-color: blue;
+    }
   </style>
 </head>
 <body>
-    <div id="fb-root"></div>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5DNFCB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+ <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v24.0&appId=APP_ID"></script>
 <!-- all visible "stuff" on the page inside body tag-->
 <b>hello</b> <i>world</i>!
 <div class="fb-like" data-href="https://github.com/megan-tu/megan-tu.github.io" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
+<ul class="menu">
 <h1 style="color:red;">My Zoo Webpage</h1>
-<div?
-<ul=class menu> 
-    <li>Elephant</li>
-    <li >Griaffe</li>
-    <li style="background-color:blue;">Tiger</li>
-    <li>Lion</li>
-    </div>
-
+    <li class="menu"><a href="elephant.html">Elephant</a></li>
+    <li class="menu" id="selected">Griaffe</li>
+    <li class="menu">Tiger</li>
+    <li class="menu">Lion</li>
+</ul>
+<h2>Names of Giraffes</h2>
+<ul>
+    <li><a href="https://doesnotexist">Marty</a> the Giraffe</li>
+    <li>Steve</li>
+    <li>George</li>
 </ul>
 </body>
 <footer>
