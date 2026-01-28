@@ -29,12 +29,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <style>
    ul.menu {
     list-style-type: none;
+    display: block;
+    overflow: hidden;
    }
    li.menu {
         background-color: lightblue;
         float: left;
         margin: 0;
         padding: 10;
+    }
+    li.menu:hover {
+        background-color: red
     }
     li#selected {
         background-color: blue;
@@ -53,7 +58,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="fb-like" data-href="https://github.com/megan-tu/megan-tu.github.io" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
 <ul class="menu">
 <h1 style="color:red;">My Zoo Webpage</h1>
-    <li class="menu"><a href="elephant.html">Elephant</a></li>
+    <a href="elephant.html"><li class="menu">Elephant</li></a>
     <li class="menu" id="selected">Griaffe</li>
     <li class="menu">Tiger</li>
     <li class="menu">Lion</li>
