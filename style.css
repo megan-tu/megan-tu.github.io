@@ -1,0 +1,49 @@
+body {
+background-color:aliceblue;
+font-family: Arial, Helvetica, sans-serif
+text-align center;
+}
+h1 {
+   color: darkgreen;
+   margin-left: 50px;
+   text-align: center;
+}
+a {color:purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+ ul.menu {
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+   }
+    li.menu {
+        list-style-type: none;
+        background-color: lightgray;
+        float: left;
+        margin: 0px;
+        padding: 10px;
+    }
+    li.menu:hover {
+        background-color: snow;
+    }
+    li#selected {
+        background-color: beige;
+    }
+    @media only screen and (max-width: 600px) {
+        body{
+            background-color:beige;
+        }
+    }
+    table, th, td {
+        border-width: 1px;
+        padding: 10px;
+        border-collapse: collapse;
+        border-style: solid;
+    }
+    .border {
+        border: 1px solid
+    }
+    .purple {
+        background-color: rgb(190, 149, 228);
+    }
